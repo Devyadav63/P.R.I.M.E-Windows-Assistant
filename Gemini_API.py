@@ -2,7 +2,7 @@
 def Answer(x):
     import google.generativeai as genai
 
-    genai.configure(api_key="AIzaSyD6Zxf_u7LrLnJYynnhUT6-ZlId8ysfV0Y")
+    genai.configure(api_key="Your API")
 
     # Set up the model
     generation_config = {
